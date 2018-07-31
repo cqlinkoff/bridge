@@ -31,14 +31,8 @@ bridge.removeEventListener(event, handler)
 
 ## API
 
-- `bridge.call(funcName: string, args: any)`
+- `bridge.call(funcName: string, args: any)`: call native function with args
 
-call native function with args
+- `bridge.addEventListener(event: string, handler: function)`: add event listener
 
-- `bridge.addEventListener(event: string, handler: function)`
-
-add event listener
-
-- `bridge.removeEventListener(event: string, handler: function)`
-
-remove event listener
+- `bridge.removeEventListener(event: string, handler: function)`: remove event listener
