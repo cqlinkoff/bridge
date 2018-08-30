@@ -15,6 +15,7 @@
     "build:commonjs": "BABEL_ENV=commonjs babel src -d lib",
     "build:es": "BABEL_ENV=es babel src -d es",
     "prepare": "npm run build",
+    "preversion": "npm run build",
     "coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
@@ -33,22 +34,22 @@
   },
   "homepage": "https://github.com/cqmbr/bridge#readme",
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.56",
-    "@babel/core": "^7.0.0-beta.56",
-    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.56",
-    "@babel/plugin-transform-runtime": "^7.0.0-beta.56",
-    "@babel/preset-env": "^7.0.0-beta.56",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-eslint": "^8.2.6",
+    "babel-eslint": "^9.0.0",
     "babel-jest": "^23.4.0",
     "coveralls": "^3.0.2",
-    "eslint": "^5.3.0",
-    "eslint-config-standard": "^12.0.0-alpha.0",
-    "eslint-plugin-import": "^2.13.0",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "jest": "^23.4.1"
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.5.0"
   },
   "files": [
     "es",
@@ -59,6 +60,6 @@
     "npm": ">= 5"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0-beta.56"
+    "@babel/runtime": "^7.0.0"
   }
 }
