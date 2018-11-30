@@ -1,5 +1,5 @@
 {
-  "name": "@cqmbr/bridge",
+  "name": "@cqlinkoff/bridge",
   "version": "1.1.0",
   "description": "bridge of native and web",
   "main": "lib/index.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cqmbr/bridge.git"
+    "url": "git+https://github.com/cqlinkoff/bridge.git"
   },
   "keywords": [
     "bridge",
@@ -30,26 +30,26 @@
   "author": "kagawagao <kingsongao1221@gmail.com> (https://kingsongao.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cqmbr/bridge/issues"
+    "url": "https://github.com/cqlinkoff/bridge/issues"
   },
-  "homepage": "https://github.com/cqmbr/bridge#readme",
+  "homepage": "https://github.com/cqlinkoff/bridge#readme",
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.0.0",
-    "@babel/plugin-transform-runtime": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.6",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-eslint": "^9.0.0",
-    "babel-jest": "^23.4.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
     "coveralls": "^3.0.2",
-    "eslint": "^5.5.0",
+    "eslint": "^5.9.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "jest": "^23.5.0"
+    "jest": "^23.6.0"
   },
   "files": [
     "es",
@@ -60,6 +60,6 @@
     "npm": ">= 5"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0"
+    "@babel/runtime": "^7.1.5"
   }
 }

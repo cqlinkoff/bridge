@@ -2,23 +2,23 @@
 
 > Bridge of native and web
 
-[![node](https://img.shields.io/node/v/@cqmbr/bridge.svg)](https://www.npmjs.com/package/@cqmbr/bridge)
-[![npm](https://img.shields.io/npm/v/@cqmbr/bridge.svg)](https://www.npmjs.com/package/@cqmbr/bridge)
-[![license](https://img.shields.io/npm/l/@cqmbr/bridge.svg)](https://github.com/cqmbr/bridge/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/cqmbr/bridge.svg?branch=master)](https://travis-ci.org/cqmbr/bridge)
+[![node](https://img.shields.io/node/v/@cqlinkoff/bridge.svg)](https://www.npmjs.com/package/@cqlinkoff/bridge)
+[![npm](https://img.shields.io/npm/v/@cqlinkoff/bridge.svg)](https://www.npmjs.com/package/@cqlinkoff/bridge)
+[![license](https://img.shields.io/npm/l/@cqlinkoff/bridge.svg)](https://github.com/cqlinkoff/bridge/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/cqlinkoff/bridge.svg?branch=master)](https://travis-ci.org/cqlinkoff/bridge)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
-[![Coverage Status](https://coveralls.io/repos/github/cqmbr/bridge/badge.svg?branch=master)](https://coveralls.io/github/cqmbr/bridge?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/cqlinkoff/bridge/badge.svg?branch=master)](https://coveralls.io/github/cqlinkoff/bridge?branch=master)
 
 ## Installation
 
 ```bash
-npm i @cqmbr/bridge
+npm i @cqlinkoff/bridge
 ```
 
 ## Use
 
 ```js
-import Bridge from '@cqmbr/bridge'
+import Bridge from '@cqlinkoff/bridge'
 
 const bridge = new Bridge('namespace')
 
