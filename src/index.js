@@ -1,4 +1,4 @@
-class Bridge {
+export default class Bridge {
   constructor (namespace) {
     this.namespace = namespace
     this.native = window[namespace]
@@ -117,5 +117,3 @@ class Bridge {
     }
   }
 }
-
-export default Bridge
